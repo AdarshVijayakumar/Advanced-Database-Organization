@@ -6,7 +6,7 @@
 #include "storage_mgr.h"
 
 #define PAGE_SIZE 8192
-
+// Issue resolved..... sample issue 01....
 //Structure of a page frame that holds the actual page frame in the Buffer Manager.
 typedef struct Frame {
         SM_PageHandle Content;
